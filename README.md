@@ -5,31 +5,31 @@
 📊 Presentation: [Fan App  Presentation.pptx](https://github.com/user-attachments/files/16776834/Fan.App.Presentation.pptx)
 
 #### Project Overview:
-In this project, we developed a fan app for a world-renowned artist, Ed Sheeran, for his hypothetical world tour, the Integral Tour. We chose to focus on Ed Sheeran, creating a fan app using R Shiny that provides essential information for fans attending his concerts at various stadiums across the world. The app is designed to enhance the concert experience by offering detailed information on amenities near each stadium, including restaurants, hotels, and local attractions.
+In this project, we created a fan app for a globally famous artist, Ed Sheeran, in anticipation of his hypothetical world tour, the Integral Tour. We specifically chose Ed Sheeran and developed the app using R Shiny to offer essential information for fans attending his concerts at different stadiums worldwide. The app is designed to elevate the concert experience by providing comprehensive details about amenities near each stadium, such as restaurants, hotels, and local attractions.
 
 #### Business Objectives:
-This project simulates the development of a user-centric application aimed at enhancing fan engagement and addressing logistical challenges at large-scale concerts. The app demonstrates how technology can improve the fan experience by offering personalized services, while also creating opportunities for monetization through partnerships with local businesses, hotels, and restaurants.
+This project models the creation of a user-focused application designed to boost fan engagement and tackle logistical issues at large-scale concerts. The app showcases how technology can enhance the fan experience by providing personalized services and opens up opportunities through collaborations with local businesses, hotels, and restaurants.
 
-By focusing on a world-renowned artist like Ed Sheeran, we explored how such a platform can add value to both fans and businesses in the event, hospitality, and entertainment sectors, providing potential for sponsorships, advertising, and new revenue streams.
+By centering on a globally recognized artist like Ed Sheeran, we examined how this platform could benefit both fans and businesses in the events, hospitality, and entertainment industries, creating possibilities for sponsorships, advertising, and additional revenue streams.
 
 ![alt text](https://github.com/user-attachments/assets/231273d4-a00b-4d4e-936e-dabf9025e558)
 (Tour Poster, *Courtesy of Wenqing Huang and Wenxuan Wu*)
 
 #### Key Features:
-- **Stadium Information:** The app includes a list of major stadiums where an artist of Ed Sheeran's might perform. The app will provide each stadium's details such as location, and other relevant information.
+- **Concert Information:** This app offers fans comprehensive concert details for a global tour by a singer like Ed Sheeran, including tour locations, venue information, dates, and links to ticket purchase pages.
   
-- **Nearby Amenities:** For each stadium, the app provides a curated list of nearby restaurants, hotels, and local attractions. Through the interactive map, users can reserve restaurants, book hotels, and navigate to nearby entertainment venues, allowing fans to seamlessly plan their visit with access to dining, accommodation, and entertainment options near the concert venue.
+- **Nearby Amenities:** The app offers a curated list of nearby restaurants, hotels, and local attractions for each stadium. Through the interactive map, users can make restaurant reservations, book hotels, and find directions to nearby entertainment spots, enabling fans to easily plan their visit with access to dining, accommodation, and entertainment options close to the concert venue.
   
-- **Interactive Maps:** The app features interactive maps that show the location of each stadium and the surrounding amenities. Fans can explore the area visually and make informed decisions about where to eat, stay, and what to do before or after the concert.
+- **Artist information:** Users can explore information about the artist in the app, primarily featuring details about his past albums, popular songs, and more. We also introduced a unique feature called the Recommender, which suggests songs based on the user’s current mood, such as sadness, happiness, or nostalgia. These features are designed to appeal not only to loyal fans but also to give new listeners a chance to discover the artist’s work.
 
-- **User-Friendly Interface:** Built using R Shiny, the app is intuitive and easy to navigate, making it accessible to fans of all ages. The design is tailored to provide a seamless experience, allowing users to quickly find the information they need.
+- **User-Friendly Interface:** This app offers great convenience for potential audiences interested in exploring Ed Sheeran's world tour. Through detailed information collection and features like the interactive map, we provide users with a one-stop service that includes viewing concert details, purchasing tickets, booking accommodations, and exploring restaurants and entertainment facilities near the concert venues.
 
 #### Technology Stack:
 - **R Shiny:** For building the interactive web application.
 - **HTML and CSS:** Used in conjunction with R Shiny to enhance the design and user experience.
 - **PostgreSQL Database:** The data scraped from Yelp was stored in an SQL database to efficiently manage and query information related to the stadiums and nearby amenities.
 - **Data Sources:** The data on restaurants, hotels, and attractions were scraped from Yelp using APIs.
-
+- 
 #### Database Schema
 ![alt text](https://github.com/user-attachments/assets/371ec637-78f3-44a5-a305-30f4d1c09b4e)
 
@@ -44,6 +44,9 @@ The work is breakdown as the following:
 - Shiny App Development - Vivian Yin (Home Page & App UI Design), Wenqing Huang (Restaurant & Hotel page, Interactive map & app UI Design), Shuwen Chen (Discography & Music Recommendation page), Yifei Pan (Ticket Sale & About us page)
 
  🎉 Special thanks to Prof. Day Yi for his invaluable support in helping us construct and enhance the features of the app. We could not have accomplished this without his guidance and expertise.
+
+ #### My contribution and reflection:
+ 
 
 #### *Disclaimer*
 This fan app is a student project developed as part of an academic course. It is not affiliated with or endorsed by Ed Sheeran or any associated entities. The project was created for educational purposes only, simulating a real-world application to demonstrate technical skills in R Shiny, HTML, CSS, and data integration.
