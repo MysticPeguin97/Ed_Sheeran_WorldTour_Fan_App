@@ -27,11 +27,16 @@ By centering on a globally recognized artist like Ed Sheeran, we examined how th
 #### Technology Stack:
 - **R Shiny:** For building the interactive web application.
 - **HTML and CSS:** Used in conjunction with R Shiny to enhance the design and user experience.
-- **PostgreSQL Database:** The data scraped from Yelp was stored in an SQL database to efficiently manage and query information related to the stadiums and nearby amenities.
+- **PostgreSQL Database:** The data scraped from Yelp was stored in an SQL database to efficiently manage and query information related to the concerts, stadiums, and nearby amenities.
 - **Data Sources:** The data on restaurants, hotels, and attractions were scraped from Yelp using APIs.
-- 
+
 #### Database Schema
 ![alt text](https://github.com/user-attachments/assets/371ec637-78f3-44a5-a305-30f4d1c09b4e)
+
+#### My contribution and reflection:
+In this project, I was primarily responsible for designing the UI interface and creating front-end pages for concert information and nearby amenities. After gaining a thorough understanding of the data backend and the relationships between the tables, I efficiently used SQL queries to retrieve the necessary information and developed the front-end web pages and user interface using R Shiny, HTML, and CSS. For instance, I utilized queries to fetch details like the latitude, longitude, address, and ratings of various restaurants near the venue from the database to create an interactive map. Users can click on any restaurant on the map to view information such as the address, rating, and cuisine type.
+
+This project provided me with a comprehensive and in-depth experience of the entire end 2 end process, from the data side to the customer-facing application side. It included data capture and collection, cleaning, normalization, database construction, querying, and using data to create front-end visualizations.
 
 #### Developing team:
 This project was a collaborative effort of 7 Columbia students, with each team member contributing to different aspects of the app's development, including data scraping, front-end design, back-end functionality, and database management.
@@ -44,9 +49,6 @@ The work is breakdown as the following:
 - Shiny App Development - Vivian Yin (Home Page & App UI Design), Wenqing Huang (Restaurant & Hotel page, Interactive map & app UI Design), Shuwen Chen (Discography & Music Recommendation page), Yifei Pan (Ticket Sale & About us page)
 
  🎉 Special thanks to Prof. Day Yi for his invaluable support in helping us construct and enhance the features of the app. We could not have accomplished this without his guidance and expertise.
-
- #### My contribution and reflection:
  
-
 #### *Disclaimer*
 This fan app is a student project developed as part of an academic course. It is not affiliated with or endorsed by Ed Sheeran or any associated entities. The project was created for educational purposes only, simulating a real-world application to demonstrate technical skills in R Shiny, HTML, CSS, and data integration.
