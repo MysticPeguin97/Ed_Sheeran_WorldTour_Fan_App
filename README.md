@@ -30,7 +30,7 @@ By centering on a globally recognized artist like Ed Sheeran, we examined how th
 - **PostgreSQL Database:** The data scraped from Yelp was stored in an SQL database to efficiently manage and query information related to the concerts, stadiums, and nearby amenities.
 - **Data Sources:** The data on restaurants, hotels, and attractions were scraped from Yelp using APIs.
 
-#### Database Schema
+#### Database Schema:
 ![alt text](https://github.com/user-attachments/assets/371ec637-78f3-44a5-a305-30f4d1c09b4e)
 
 #### My Contribution and Reflection:
